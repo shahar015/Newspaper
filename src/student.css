@@ -1,0 +1,96 @@
+.student {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    height: 320px;
+    width: 70vw;
+  }
+
+
+  .student-photo {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .student-info {
+    width: 300px;
+    box-sizing: border-box;
+    height: 100%;
+    background: rgb(18,155,142);
+    background: linear-gradient(50deg, rgba(18,155,142,1) 5%, rgba(55,237,125,1) 100%);
+    padding: 20px;
+    border-radius: 20px 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .student-name {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+.student-attributes {
+    flex-grow: 1;
+    font-size: 20px;
+    direction: rtl;
+    box-sizing: border-box;
+    height: 100%;
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+    background-color: #1f855a;
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+  }
+  
+  .student-attributes li:hover {
+    background-color: #eaeaea;
+  }
+  
+  .student-attributes li {
+    background: rgb(18,155,142);
+    background: linear-gradient(50deg, rgba(18,155,142,1) 5%, rgba(55,237,125,1) 100%);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    padding: 3px;
+    border-radius: 10px;
+  }
+  
+  .attribute{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    border-radius: 7px;
+    overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+
+
+  .student-attributes li:hover {
+    background: lightgray;
+  }
+
+
+  
+
+
+
+  
+
+  

@@ -1,0 +1,64 @@
+.app{
+  position: relative;
+}
+
+.cover {
+  height: 100vh;
+  background-image: url('https://wallpapercrafter.com/desktop/152721-yellow-blue-electric-waves-spectrum-colorful-black-black-background-green.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.cover-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.cover-text h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.cover-text img {
+  width: 150px;
+  margin-top: 30px;
+}
+
+.cover-text p{
+  margin: 0;
+  padding: 0;
+}
+
+.meeting-divider{
+  background-color: #87f172;
+}
+
+.meeting-corner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #87f172;
+  
+}
+
+.meeting-corner-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.recipe-divider{
+  background-color: #6ecde1 ;
+}
+
+.end-divider{
+  background-color: #ecea5a;
+}
